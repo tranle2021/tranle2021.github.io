@@ -1,0 +1,291 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+	color: black;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	
+}
+body{
+	background: url("background-01.jpg");
+	background-size: cover;
+}
+.bodycontent{
+	margin: 0px 100px;
+}
+
+.header{
+	position: fixed;
+	top: 0;
+	background-color: white;
+	width: 100%;
+}
+.header .portfolio1{
+	background-color:#F1C209;
+	float: left;
+	font-size: 36px;
+	padding: 20px 30px;
+	margin-right: 80px;
+	
+}
+.header .menu1{
+	display: flex;
+	list-style-type: none;
+	font-size: 20px;
+	font-weight: 700px;
+	color: black;
+	margin-right: 50px;
+	
+}
+.header .menu1 li{
+	padding: 30px 20px;
+	
+}
+
+.header .menu1 a:hover{
+	color: #F1C209;
+}
+.header .social1{
+	float: right;
+	padding: 30px 120px 0px 10px;
+	
+}
+.header .social1 i{
+	margin-left: 10px;
+}
+.open{
+	text-align: center;
+	margin: 120px 70px;
+}
+.open hr{
+	width: 15%;
+	margin: 70px auto;
+	border: none;
+	background-color: black;
+	height: 1px;
+}
+.open h1{
+	font-size: 56px;
+	margin-bottom: 10px;
+}
+.open input{
+	padding: 20px 30px;
+	margin: 60px 20px 0px;
+	border: none;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+}
+.open input:hover{
+	background-color: #F1C209;
+	color: black;
+	font-size: 20px;
+}
+.aboutme h1{
+	font-size: 40px;
+	margin-top: 120px;
+}
+.aboutme hr{
+	width: 180px;
+	height: 5px;
+	border: none;
+	background-color: #F1C209;
+	margin-bottom: 20px;
+	 
+}
+.aboutmecontent h2{
+	padding: 40px 0px 10px;
+}
+.aboutmecontent{
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+	margin: auto;
+}
+.aboutmecontent .exp{
+	width: 40%;
+}
+
+.myskills h1{
+	font-size: 40px;
+	margin-top: 120px;
+}
+.myskills .myskillslist{
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+	margin: 100px auto;
+	font-size: 38px;	
+}
+.achiev{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin: 70px 0px;
+	background-image: url("background-2-02.jpg");
+	background-size: cover;
+	padding: 50px 0px;
+	border-radius: 10px;
+}
+.achiev .info h2{
+	font-size: 54px;
+	color: white;
+}
+.achiev .info h4{
+	color: white;
+}
+
+.projects h1{
+	font-size: 40px;
+	margin-top: 120px;
+}
+.projects .menu2{
+	display: flex;
+	list-style-type: none;
+	margin: 30px 0px 10px;
+}
+.projects .menu2 a:hover{
+	color: #F1C209;
+}
+.projects .menu2 li{
+	margin-right: 50px;
+}
+
+.projects .row1{
+	display: flex;
+	margin: 30px 0px;
+}
+.projects .row1 .project1{
+	width: 40%;
+}
+.projects .row1 .project1 .img1{
+	background-image: url("Raula-01.jpg");
+	background-size: contain;
+	height: 200px;
+}
+.projects .row1 .project1 .text1 h3{
+	color: gray;
+	font-size: 16px;
+}
+.projects .row1 .project2{
+	width: 30%;
+	margin: 0px 20px;
+}
+.projects .row1 .project2 .img2{
+	background-image: url("HOUSTON FINE ART MUSEUM.jpg");
+	background-size: contain;
+	height: 200px;
+}
+.projects .row1 .project2 .text2 h3{
+	color: gray;
+	font-size: 16px;
+}
+.projects .row1 .project3{
+	width: 30%;
+}
+.projects .row1 .project3 .img3{
+	background-image: url("P.O.E.M1.jpg");
+	background-size: contain;
+	height: 200px;
+}
+.projects .row1 .project3 .text3 h3{
+	color: gray;
+	font-size: 16px;
+}
+
+.projects .row2{
+	display: flex;
+	margin: 30px 0px;
+}
+.projects .row2 .project4{
+	width: 25%;
+}
+.projects .row2 .project4 .img4{
+	background-image: url("Magazine Cover-01.jpg");
+	background-size: contain;
+	height: 200px;
+}
+.projects .row2 .project4 .text4 h3{
+	color: gray;
+	font-size: 16px;
+}
+.projects .row2 .project5{
+	width: 25%;
+	margin: 0px 20px;
+}
+.projects .row2 .project5 .img5{
+	background-image: url("CHOCO-CREAM (FINAL)-01.jpg");
+	background-size: contain;
+	height: 200px;
+}
+.projects .row2 .project5 .text5 h3{
+	color: gray;
+	font-size: 16px;
+}
+.projects .row2 .project6{
+	width: 50%;
+}
+.projects .row2 .project6 .img6{
+	background-image: url("Crayons.jpg");
+	background-size: contain;
+	height: 200px;
+}
+.projects .row2 .project6 .text6 h3{
+	color: gray;
+	font-size: 16px;
+}
+
+.services h1{
+	font-size: 40px;
+	margin-top: 120px;
+}
+.services .serviceoption{
+	text-align: center;
+}
+.services .serviceoption input{
+	margin: 60px 20px 0px;
+	height: 100px;
+	width: 400px;
+	border: none;
+	background-color: lightgray;
+	font-size: 36px;
+	font-weight: 700;
+	border-radius: 5px;
+}
+.services input:hover{
+	background-color: #F1C209;
+	color: white;
+	font-size: 36px;
+}
+
+.contact{
+	background-image: url("background-2-02.jpg");
+	background-size: cover;
+	border-radius: 15px;
+	margin: 120px 0px;
+	padding: 200px 0px;
+}
+.contact h1{
+	font-size: 58px;
+	font-weight: 900;
+	text-align: center;
+	color: white;
+}
+.contact .contactlist{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin: 70px 0px;
+	font-size: 20px;
+	font-weight: 700;
+}
+.contact h4{
+	color: white;
+	text-align: center;
+}
+.contact h4:hover{
+	color: #F1C209;
+}
