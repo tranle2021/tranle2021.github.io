@@ -47,6 +47,9 @@ body{
 .header .menu1 a:hover{
 	color: #F1C209;
 }
+.header .social1 i:hover{
+	color: #F1C209;
+}
 .header .social1{
 	float: right;
 	padding: 30px 120px 0px 10px;
